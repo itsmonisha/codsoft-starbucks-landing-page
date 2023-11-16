@@ -1,0 +1,145 @@
+section img{
+    width: 109%;
+    margin-top:0px;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section{
+    position:relative;
+    width: 100%;
+    top:0;
+    min-height: 1vh;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+    background: #fff;
+}
+header{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100;
+    padding: 20px 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    position: relative;
+    max-width: 80px;
+}
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li{
+    list-style: none;
+}
+section header ul li a{
+    display: inline-block;
+    color: #333;
+    font-weight: 5000px;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textbox{
+    position: relative;
+    max-width: 600px;
+    height: px;
+}
+.content .textbox h2{
+    color: #333;
+    margin-top: 100px;
+    margin-bottom: 1500px;
+    margin-left: 20px;
+    margin-right: 90px;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+.content .textbox h2 span{
+    color: #017143;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+.content .textbox p{
+    color: #333;
+}
+.content .textbox a{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding: 8px 20px;
+    background: #017143;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.content .imgbox{
+    width: 1000px;
+    height: 2000px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+.content .imgbox img{
+    width: 340px;
+    height: 400px;
+}
+.star{
+    position:absolute;
+    height: 900px;
+    left: 50%;
+    top:200px;
+    bottom: 20px;
+    transform: translateX(-50);
+    display: flex;
+}
+.star li{
+    list-style: none;
+    display: inline-block;
+    margin:0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.star li:hover{
+    transform: translateY(-15px);
+}
+.star li img{
+    max-width: 600px;
+}
+.circle{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background-color:#017143;
+    clip-path: circle(100px at center 80px);
+    
+}
+.circlee{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background-color:#017143;
+    clip-path: circle(100px at right 80px);
+    
+}
